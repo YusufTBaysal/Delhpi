@@ -1,0 +1,29 @@
+inherited Form18_LgXhdpiPh: TForm18_LgXhdpiPh
+  ClientHeight = 696
+  ClientWidth = 448
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = xFF90D08A
+      Offset = 0.000000000000000000
+    end
+    item
+      Color = xFFDDBFD7
+      Offset = 1.000000000000000000
+    end>
+  Fill.Gradient.StartPosition.X = 0.500000000000000000
+  Fill.Gradient.StartPosition.Y = 1.000000000000000000
+  Fill.Gradient.StopPosition.X = 0.499999970197677600
+  Fill.Gradient.StopPosition.Y = 0.000000000000000000
+  DesignerMasterStyle = 0
+  inherited Label1: TLabel
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'SORU 2'
+  end
+  inherited Label2: TLabel
+    Text = '4x8 = ?'
+  end
+  inherited Button1: TButton
+    OnClick = Button1Click
+  end
+end

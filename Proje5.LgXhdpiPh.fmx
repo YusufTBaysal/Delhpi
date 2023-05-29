@@ -1,0 +1,58 @@
+inherited Form7_LgXhdpiPh: TForm7_LgXhdpiPh
+  ClientHeight = 696
+  ClientWidth = 448
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = xFF989696
+      Offset = 0.000000000000000000
+    end
+    item
+      Color = xFFF7F68E
+      Offset = 0.997530877590179400
+    end>
+  Fill.Gradient.StartPosition.X = 0.500000000000000000
+  Fill.Gradient.StartPosition.Y = 1.000000000000000000
+  Fill.Gradient.StopPosition.X = 0.499999970197677600
+  Fill.Gradient.StopPosition.Y = 0.000000000000000000
+  DesignerMasterStyle = 0
+  inherited Label1: TLabel
+    Size.Width = 393.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'SORU 5'
+  end
+  inherited Label2: TLabel
+    StyledSettings = [Size, FontColor]
+    TextSettings.Font.Family = 'MS Reference Sans Serif'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = '"Sorgulanmam'#305#351' bir hayat, ya'#351'anmaya de'#287'mez." s'#246'z'#252' kime aittir?'
+  end
+  inherited Button1: TButton
+    StyledSettings = [Size, FontColor]
+    Text = 'Platon'
+    TextSettings.Font.Family = 'MS Reference Sans Serif'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button1Click
+  end
+  inherited Button2: TButton
+    StyledSettings = [Size, FontColor]
+    Position.Y = 468.000000000000000000
+    Text = 'Sokrates'
+    TextSettings.Font.Family = 'MS Reference Sans Serif'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button2Click
+  end
+  inherited Button3: TButton
+    StyledSettings = [Size, FontColor]
+    Position.X = 31.000000000000000000
+    Position.Y = 540.000000000000000000
+    Text = 'Ren'#233' Descartes'
+    TextSettings.Font.Family = 'MS Reference Sans Serif'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button3Click
+  end
+end

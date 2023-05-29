@@ -1,0 +1,44 @@
+inherited Form6_LgXhdpiPh: TForm6_LgXhdpiPh
+  ClientHeight = 696
+  ClientWidth = 448
+  DesignerMasterStyle = 0
+  inherited Label1: TLabel
+    Size.Width = 393.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'SORU 4'
+  end
+  inherited Label2: TLabel
+    StyledSettings = [Size, FontColor]
+    TextSettings.Font.Family = 'MS Reference Sans Serif'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'U'#351'ak ili hangi b'#246'lgededir?'
+  end
+  inherited Button1: TButton
+    StyledSettings = [Size, FontColor]
+    Text = 'Marmara B'#246'lgesi'
+    TextSettings.Font.Family = 'MS Reference Sans Serif'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button1Click
+  end
+  inherited Button2: TButton
+    StyledSettings = [Size, FontColor]
+    Position.Y = 472.000000000000000000
+    Text = 'Ege B'#246'lgesi'
+    TextSettings.Font.Family = 'MS Reference Sans Serif'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button2Click
+  end
+  inherited Button3: TButton
+    StyledSettings = [Size, FontColor]
+    Position.X = 31.000000000000000000
+    Position.Y = 548.000000000000000000
+    Text = #304#231' Anadolu B'#246'lgesi'
+    TextSettings.Font.Family = 'MS Reference Sans Serif'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button3Click
+  end
+end

@@ -1,0 +1,60 @@
+object Form8: TForm8
+  Left = 0
+  Top = 0
+  Caption = 'Form8'
+  ClientHeight = 636
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label2: TLabel
+    Position.X = 23.000000000000000000
+    Position.Y = 279.000000000000000000
+    Size.Width = 425.000000000000000000
+    Size.Height = 88.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
+    Text = 'Fatih Sultan Mehmet'#39'in babas'#305' kimdir?'
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Position.X = 32.000000000000000000
+    Position.Y = 396.000000000000000000
+    Size.Width = 401.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'II. Murat'
+  end
+  object Button2: TButton
+    Position.X = 32.000000000000000000
+    Position.Y = 468.000000000000000000
+    Size.Width = 401.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Y'#305'ld'#305'r'#305'm Beyaz'#305't'
+  end
+  object Button3: TButton
+    Position.X = 32.000000000000000000
+    Position.Y = 536.000000000000000000
+    Size.Width = 401.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'I. Mehmet'
+  end
+  object Label1: TLabel
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 32.000000000000000000
+    Position.Y = 248.000000000000000000
+    Size.Width = 401.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'SORU 1'
+    TabOrder = 4
+  end
+end

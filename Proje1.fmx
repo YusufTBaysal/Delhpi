@@ -1,0 +1,56 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 688
+  ClientWidth = 664
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Button2: TButton
+    Position.X = 48.000000000000000000
+    Position.Y = 383.000000000000000000
+    Size.Width = 353.000000000000000000
+    Size.Height = 97.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Matematik Yar'#305#351'mas'#305
+    object Button3: TButton
+      Position.Y = 40.000000000000000000
+      Size.Width = 353.000000000000000000
+      Size.Height = 97.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      Text = 'Button3'
+    end
+  end
+  object Button1: TButton
+    Position.X = 48.000000000000000000
+    Position.Y = 352.000000000000000000
+    Size.Width = 353.000000000000000000
+    Size.Height = 97.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Genel K'#252'lt'#252'r Yar'#305#351'mas'#305
+  end
+  object Label1: TLabel
+    StyledSettings = [FontColor]
+    Position.X = 48.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 353.000000000000000000
+    Size.Height = 193.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Segoe Script'
+    TextSettings.Font.Size = 48.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'Bilgi Yar'#305#351#305
+    TabOrder = 0
+  end
+  object ColorAnimation1: TColorAnimation
+    Duration = 0.200000002980232200
+    StartValue = claWhite
+    StopValue = claWhite
+  end
+end

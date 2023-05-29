@@ -1,0 +1,56 @@
+inherited Form5_LgXhdpiPh: TForm5_LgXhdpiPh
+  ClientHeight = 696
+  ClientWidth = 448
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = xFF93F83D
+      Offset = 0.000000000000000000
+    end
+    item
+      Color = xFF9494FF
+      Offset = 1.000000000000000000
+    end>
+  Fill.Gradient.StartPosition.X = 0.500000000000000000
+  Fill.Gradient.StartPosition.Y = 1.000000000000000000
+  Fill.Gradient.StopPosition.X = 0.499999970197677600
+  Fill.Gradient.StopPosition.Y = 0.000000000000000000
+  DesignerMasterStyle = 0
+  inherited Label1: TLabel
+    Size.Width = 393.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'SORU 3'
+  end
+  inherited Label2: TLabel
+    StyledSettings = [Size, FontColor]
+    TextSettings.Font.Family = 'MS Reference Sans Serif'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'D'#252'nyan'#305'n ilk kad'#305'n pilotu kimdir?'
+  end
+  inherited Button1: TButton
+    StyledSettings = [Size, FontColor]
+    Text = 'Raymonde de Laroche'
+    TextSettings.Font.Family = 'MS Reference Sans Serif'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button1Click
+  end
+  inherited Button2: TButton
+    StyledSettings = [Size, FontColor]
+    Text = 'Sabiha G'#246'k'#231'en'
+    TextSettings.Font.Family = 'MS Reference Sans Serif'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button2Click
+  end
+  inherited Button3: TButton
+    StyledSettings = [Size, FontColor]
+    Position.Y = 540.000000000000000000
+    Text = 'Bedriye Tahin'
+    TextSettings.Font.Family = 'MS Reference Sans Serif'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button3Click
+  end
+end

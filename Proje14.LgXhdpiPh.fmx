@@ -1,0 +1,15 @@
+inherited Form23_LgXhdpiPh: TForm23_LgXhdpiPh
+  ClientHeight = 696
+  ClientWidth = 448
+  DesignerMasterStyle = 0
+  inherited Label1: TLabel
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'SORU 4'
+  end
+  inherited Label2: TLabel
+    Text = '23x14 = ?'
+  end
+  inherited Button1: TButton
+    OnClick = Button1Click
+  end
+end

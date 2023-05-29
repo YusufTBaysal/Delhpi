@@ -1,0 +1,50 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 696
+  ClientWidth = 448
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = xFFFF8686
+      Offset = 0.000000000000000000
+    end
+    item
+      Color = xFFF9FF65
+      Offset = 1.000000000000000000
+    end>
+  Fill.Gradient.StartPosition.X = 0.500000000000000000
+  Fill.Gradient.StartPosition.Y = 1.000000000000000000
+  Fill.Gradient.StopPosition.X = 0.499999970197677600
+  Fill.Gradient.StopPosition.Y = 0.000000000000000000
+  DesignerMasterStyle = 3
+  inherited Button2: TButton
+    Position.X = 64.000000000000000000
+    Position.Y = 449.000000000000000000
+    TintColor = claBlue
+    OnClick = Button2Click
+    inherited Button3: TButton
+      StyledSettings = [Family, Size, Style]
+      Position.X = 104.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 145.000000000000000000
+      TabOrder = 4
+      Text = #199#305'k'#305#351
+      TextSettings.FontColor = claWhite
+      TintColor = claRed
+      OnClick = Button3Click
+    end
+  end
+  inherited Button1: TButton
+    Position.X = 64.000000000000000000
+    Position.Y = 312.000000000000000000
+    TintColor = claGreen
+    OnClick = Button1Click
+  end
+  inherited Label1: TLabel
+    Position.X = 64.000000000000000000
+    TextSettings.Font.Family = 'Script MT'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited ColorAnimation1: TColorAnimation
+    PropertyName = 'Fill.Color'
+  end
+end

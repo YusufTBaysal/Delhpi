@@ -1,0 +1,13 @@
+inherited Form1_LgXhdpiTb: TForm1_LgXhdpiTb
+  ClientHeight = 828
+  ClientWidth = 480
+  DesignerMasterStyle = 3
+  inherited Button2: TButton
+    inherited Button3: TButton
+      Position.X = 200.000000000000000000
+    end
+  end
+  inherited Label1: TLabel
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+end
